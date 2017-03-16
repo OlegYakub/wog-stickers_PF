@@ -1,0 +1,310 @@
+/* ==================================960========================== */
+
+@media screen and (max-width: 1170px) and (min-width: 960px){
+	
+	html, body{
+		overflow-x: hidden;
+	}
+
+	.container{
+		max-width: 960px;
+		
+	}
+
+
+	
+
+/* ==========main-1============ */
+
+	.main-1{
+		&__logo{
+			padding-left: 0;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__title{
+			text-align: right;
+			margin-right: 0;
+		}
+
+		&__item{
+			font-size: 1.3em;
+		}
+	}
+
+	.main-2{
+		position: static;
+		padding-top: 40px;
+	}
+
+
+/* ==========main-2============ */
+
+	.main-2{
+		
+	}
+
+/* ==========main-3============ */
+	.line{
+		width: 175px;
+	}
+
+
+
+	.main-3{
+
+		.container{
+			max-width: 1024px;
+		}
+
+		&__card{
+			&--mr{
+				margin-right: 20px;
+			}
+
+			&--white1{
+				margin-left: -20px;
+			}
+			&--pink{
+				margin-left: -20px;
+			}
+		}
+
+		&__row{
+			&--center{
+				padding-right: 190px;
+			}
+		}
+
+		&__people{
+			position: relative;
+			left: 9px;
+			margin-top: -25px;
+
+			.line-down{
+				bottom: -219px;
+				height: 220px;
+			}
+
+			.line-right{
+				width: 151px;
+				right: -151px;
+
+				&__up{
+					top: -138px;
+					height: 138px;
+				}
+			}
+		}
+		&__solution{
+			.line{
+				left: -164px;
+			}
+		}
+
+		&__needs{
+			.line{
+				right: -164px;
+			}
+		}
+	}
+
+/* ==========main-4============ */
+	.main-4{
+		&__left{
+			
+			img{
+				width: 480px;
+			}
+		}
+	}
+
+/* ==========main-5============ */
+	.main-5{
+		
+		&__img{
+			bottom: 22px;
+		  right: -23px;
+      width: 40%;
+		}
+
+		.bigtitle{
+			font-size: 50px;
+		}
+	}
+
+/* ==========main-6============ */
+	.main-6{
+
+		.title{
+			margin-bottom: 0;
+		}
+		&__ten{
+			
+			img{
+				width: 100%;
+			}
+		}
+	}
+
+/* ==========main-7============ */
+	.main-7{
+			
+	}
+
+/* ==========main-8============ */
+	.main-8{
+		
+		&__body{
+			-webkit-align-items: center;
+			align-items: center;
+		}
+
+		&__right{
+			width: 30%;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__left{
+			width: 30%;
+				img{
+				width: 100%;
+			}
+		}
+
+		&__mid{
+			width: 30%;
+		}
+
+		
+
+		&__text1{
+			margin-bottom: 20px;
+		}
+	}
+
+/* ==========main-9============ */
+	.main-9{
+		
+		&__images{
+			margin-right: 30px;
+			width: 45%;
+
+			img{
+				padding: 15px;
+			}
+		}
+
+		&__top{
+			-webkit-align-items: center;
+			align-items: center;
+		}
+
+		&__img{
+			margin-left: 20px;
+			width: 60%;
+			img{
+				width: 100%;
+			}
+		}
+	}
+
+/* ==========main-10============ */
+	.main-10{
+		
+		&__img{
+			width: 60%;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__text{ 
+			width: 30%;
+
+			.bot{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+/* ==========main-11============ */
+	.main-11{
+		&__body{
+			width: 62%;
+			
+		}	
+	}
+		.fuelcalc{
+			right: -50px;
+		}
+
+/* ==========main-12============ */
+	.main-12{
+			
+	}
+
+/* ==========main-14============ */
+	.main-14{
+		.bigtitle{
+			font-size: 50px;
+		}
+
+		.land{
+			width: 65%;
+
+			img{
+				width: 100%;
+			}
+		}
+
+		&__mobland{
+			right: -103px;
+		}
+
+		&__phone{
+			left: -174px;
+		}
+	}
+
+
+
+	.main-15{
+
+		&__body{
+			width: 75%;
+			-webkit-flex-wrap: wrap;
+			-moz-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			-o-flex-wrap: wrap;
+			flex-wrap: wrap;
+			margin-left: 0;
+		}
+
+		&__text{
+			width: auto;
+		}
+
+		&__big{
+			width: 65%;
+			left: -49px;
+
+			img{
+				width: 100%;
+			}
+		}
+	}
+/* ==========FOOTER============ */
+	footer{
+
+	}
+
+	.footer{
+			
+	}
+
+}	
